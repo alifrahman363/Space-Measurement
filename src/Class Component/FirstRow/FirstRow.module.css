@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+}
+
+.main {
+  margin: 5px 10px 0px 10px;
+}
+
+.c1 {
+  float: left;
+  width: 25%;
+  margin-left: -20px;
+}
+
+.c1 input {
+  width: 90%;
+}
+
+.c2 {
+  float: left;
+  width: 50%;
+}
+
+.c2 input {
+  width: 90%;
+}
+
+.c3 {
+  float: right;
+  width: 25%;
+  margin-right: -25px;
+}
+.c3 input {
+  background-color: rgb(243, 243, 243);
+  border: 1px solid black;
+  width: 90%;
+}
+.rowOne {
+  margin-top: 10px;
+  padding: 5px 5px 10px 5px;
+}
+
+.rowOne:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+}
+
+.c4 {
+  float: left;
+  width: 60%;
+}
+
+.c5 {
+  float: left;
+  width: 40%;
+}
+
+.rowTwoB {
+  display: flex;
+  justify-content: space-between;
+}
+
+.c6 {
+  margin-top: 5px;
+
+  width: 25%;
+}
+
+.C7 {
+  margin-top: 15px;
+  width: 100%;
+}
+.c8 {
+  margin-top: 5px;
+  width: 45%;
+}
+
+.rowTwo {
+  background-color: rgb(238, 238, 238);
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 5px 5px 10px 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.rowTwo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.c4 input {
+  width: 90%;
+}
+
+.c5 input {
+  width: 90%;
+}
+
+.c6 input {
+  width: 80%;
+}
+.c7 input {
+  width: 100%;
+}
+
+.c8 input {
+  width: 100%;
+}
